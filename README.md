@@ -13,6 +13,16 @@ $ npm install
 
 ## Run tests
 
+Note: For the first time running the tests:
+
+* You may want to check your appium setup by running:
+
+```bash
+node ./node_modules/appium/bin/appium-doctor.js
+```
+* And you will see popup "Instruments wants permission to analyze other processes." You need to allow access.
+  You need to do this every time you install a new version of Xcode.
+
 #### start Appium server:
 
 ```bash
