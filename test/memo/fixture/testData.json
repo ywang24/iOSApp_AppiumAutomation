@@ -1,0 +1,12 @@
+{
+    "sampleMemo": {
+        "memo1": {
+            "memoSummary": "Team meeting",
+            "details": "Weekly meeting @9:30am Wed"
+            },
+        "memo2": {
+            "memoSummary": "Grocery shopping",
+            "details": "Need to buy tomatoes"
+            }
+    }
+}

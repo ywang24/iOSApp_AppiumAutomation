@@ -1,0 +1,7 @@
+{
+  "mocha_tests": ["./test/walmart/script/signin.js"],
+  "framework": "vanilla-mocha",
+  "no_tunnels": true,
+  "sauce": true,
+  "browser": "iPhone_Simulator_iOS_8_4_OS_X_10_10"
+}
