@@ -26,22 +26,19 @@ node ./node_modules/appium/bin/appium-doctor.js
 #### start Appium server:
 
 ```bash
-node ./node_modules/appium/bin/appium.js
+./node_modules/.bin/appium
 ```
 
 #### execute tests:
 
 ```bash
-# Run tests by groups (e.g. run smoke tests):
-./node_modules/.bin/mocha ./test/memo/script/ -g @smoke
-
 # Run test by test case name:
-./node_modules/.bin/mocha test/walmart/script/ -g 'C0001'
+./node_modules/.bin/mocha test/memo/script/ -g 'C0001'
 
 # Run all the tests:
-./node_modules/.bin/mocha test/walmart/script/
+./node_modules/.bin/mocha test/memo/script/
 ```
-## Magellan Integration
+## TODO: Magellan Integration
 https://github.com/TestArmada/magellan
 
 ## About the tests
@@ -55,17 +52,15 @@ https://github.com/TestArmada/magellan
 └── iOSApp-Automation
     ├── README.md
     ├── common
-    │   ├── common.js
     │   └── mocha_rerun.js
     ├── config
     │   ├── default.json
     │   └── logging.js
+    │   └── testData.json
     ├── package.json
     └──── test
         ├── mocha.opts
         └── memo
-            ├── fixture
-            │   └── testData.json
             ├── module
             │   └── memoModule.js
             └── script
