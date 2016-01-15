@@ -26,7 +26,7 @@
   },
   "dependencies": {
     "acorn": "^2.1.0",
-    "appium-plus": "^0.0.2",
+    "appium-plus": "^0.0.3",
     "libxmljs": "^0.14.0",
     "lodash": "^3.10.0",
     "mocha-multi": "^0.7.2",
