@@ -1,8 +1,8 @@
 'use strict';
 
-var Testdata = require('../fixture/testData'),
+var Testdata = require('../../../config/testData'),
     MemoModule = require('../module/memoModule'),
-    AppiumDriver = require('../../../common/common'),
+    AppiumDriver = require('appium-plus').AppiumDriver,
     testEnvironment = require('../../../common/test_environment');
 
 describe('Memo tests', function() {

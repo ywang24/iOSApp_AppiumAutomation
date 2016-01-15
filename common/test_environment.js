@@ -20,7 +20,7 @@ if (isMagellanWorker) {
   cap.app = Config.appiumAppLocation;
   if (!cap.app) {
     console.error("Error: Magellan appiumAppLocation missing.");
-    process.exit(1);    
+    process.exit(1);
   }
 
   if (Config.sauceSettings && Config.sauceSettings.testServer) {
