@@ -21,7 +21,7 @@
     "chai-as-promised": "^4.1.1",
     "colors": "^1.0.3",
     "mocha": "2.3.4",
-    "appium": "1.4.13",
+    "appium": "1.4.16",
     "config": "^1.19.0"
   },
   "dependencies": {
