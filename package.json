@@ -20,11 +20,9 @@
     "chai": "^1.10.0",
     "chai-as-promised": "^4.1.1",
     "colors": "^1.0.3",
-    "wd": "^0.3.11",
     "mocha": "2.3.4",
     "appium": "1.4.13",
-    "config": "^1.19.0",
-    "q": "^1.1.2"
+    "config": "^1.19.0"
   },
   "dependencies": {
     "acorn": "^2.1.0",
